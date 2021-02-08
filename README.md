@@ -13,7 +13,7 @@ Load Amazon Data into Spark DataFrame and generate product table which has : pro
 The Product table  : 
 ![alt text][Image1]
   
-[Image1]: https://github.com/ttan0408/Amazon_Vine_Analysis/blob/main/customer%20table.PNG "The Product table"
+[Image1]: https://github.com/ttan0408/Amazon_Vine_Analysis/blob/main/product_table.PNG "The Product table"
 ________________________________________________________________________________________________________________________________________________________________________
 Customer table 
 Customer table include customer id, and customer count has total data of 1516428 data after cleaning and combine and the summary table shown below :
