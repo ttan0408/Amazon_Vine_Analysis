@@ -17,11 +17,16 @@ Customer table include customer id, and customer count has total data of 1516428
   The Customer table  : 
   ![alt text][Image1]
   
-  [Image1]: https://github.com/ttan0408/MechaCar_Statistical_Analysis/blob/main/summarize_total.PNG "The Customer table"
+  [Image1]: https://github.com/ttan0408/Amazon_Vine_Analysis/blob/main/customer%20table.PNG "The Customer table"
 
 ________________________________________________________________________________________________________________________________________________________________________
 Review ID table 
 In the review id data table , we have to conver the data colume into data format because it is in string format in the raw data set.
+
+Review ID table  : 
+![alt text][Image2]
+  
+[Image2]: https://github.com/ttan0408/Amazon_Vine_Analysis/blob/main/customer%20table.PNG "Review ID table "
 
 _________________________________________________________________________________________________________________________________________________________________________
 Vine Review table
