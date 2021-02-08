@@ -13,6 +13,12 @@ ________________________________________________________________________________
 Customer table 
 Customer table include customer id, and customer count has total data of 1516428 data after cleaning and combine and the summary table shown below :
 
+
+  The Customer table  : 
+  ![alt text][Image1]
+  
+  [Image1]: https://github.com/ttan0408/MechaCar_Statistical_Analysis/blob/main/summarize_total.PNG "The Customer table"
+
 ________________________________________________________________________________________________________________________________________________________________________
 Review ID table 
 In the review id data table , we have to conver the data colume into data format because it is in string format in the raw data set.
