@@ -51,7 +51,7 @@ From the analysis there are total of 43574 helpful vine review and that includes
 Average Rating : 
 ![alt text][Image5]
   
-[Image5]: https://github.com/ttan0408/Amazon_Vine_Analysis/blob/main/vine_review_table.PNG "Vine Average Rating "
+[Image5]: https://github.com/ttan0408/Amazon_Vine_Analysis/blob/main/average_rating.PNG "Vine Average Rating "
 
 The ipynb file link is located below :
 
