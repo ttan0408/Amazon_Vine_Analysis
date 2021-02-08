@@ -9,33 +9,38 @@ Since the data is large the workflow we used is  Big Data, PySpark ,and AWS. Fir
 Product table 
 Load Amazon Data into Spark DataFrame and generate product table which has : product_id, and product_title. The total data in product table are 391729 after cleaning duplicates.
 
+
+The Product table  : 
+![alt text][Image1]
+  
+[Image1]: https://github.com/ttan0408/Amazon_Vine_Analysis/blob/main/customer%20table.PNG "The Product table"
 ________________________________________________________________________________________________________________________________________________________________________
 Customer table 
 Customer table include customer id, and customer count has total data of 1516428 data after cleaning and combine and the summary table shown below :
 
 
   The Customer table  : 
-  ![alt text][Image1]
+  ![alt text][Image2]
   
-  [Image1]: https://github.com/ttan0408/Amazon_Vine_Analysis/blob/main/customer%20table.PNG "The Customer table"
+  [Image2]: https://github.com/ttan0408/Amazon_Vine_Analysis/blob/main/customer%20table.PNG "The Customer table"
 
 ________________________________________________________________________________________________________________________________________________________________________
 Review ID table 
 In the review id data table , we have to conver the data colume into data format because it is in string format in the raw data set.
 
 Review ID table  : 
-![alt text][Image2]
+![alt text][Image3]
   
-[Image2]: https://github.com/ttan0408/Amazon_Vine_Analysis/blob/main/review_id_table.PNG "Review ID table "
+[Image3]: https://github.com/ttan0408/Amazon_Vine_Analysis/blob/main/review_id_table.PNG "Review ID table "
 
 _________________________________________________________________________________________________________________________________________________________________________
 Vine Review table
 Final table we have to convert into is the vine review table and it shown below:
 
 Vine Review table : 
-![alt text][Image3]
+![alt text][Image4]
   
-[Image3]: https://github.com/ttan0408/Amazon_Vine_Analysis/blob/main/review_id_table.PNG "Vine Review table "
+[Image4]: https://github.com/ttan0408/Amazon_Vine_Analysis/blob/main/vine_review_table.PNG "Vine Review table "
 _________________________________________________________________________________________________________________________________________________________________________
 ## Analysis and Conclusion :
 The goal is to determine if there is any bias toward favorable reviews from Vine members in outdoor produc dataset. The focus data table we used is vine review table. First we have to separate the vine table into two categories : paid and unpaid . Before to separate them into categories we have to filter the vine review table so that we only have helpful review data which has the total votes > 20 and the ratio between helpful vote to total votes greater than 50%.
