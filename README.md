@@ -47,6 +47,12 @@ The goal is to determine if there is any bias toward favorable reviews from Vine
 
 From the analysis there are total of 43574 helpful vine review and that includes 21372 of 5 star review. The average rating between vine paid and unpaid is 4.3 and 3.9 respectively. This indicate the review data set is unbiased. Also 98% five star review are from unpaid where the customer are the independent opinions of the Vine Voices
 
+
+Average Rating : 
+![alt text][Image5]
+  
+[Image5]: https://github.com/ttan0408/Amazon_Vine_Analysis/blob/main/vine_review_table.PNG "Vine Average Rating "
+
 The ipynb file link is located below :
 
 https://github.com/ttan0408/Amazon_Vine_Analysis/blob/main/Amazon_Reviews_ETL.ipynb
